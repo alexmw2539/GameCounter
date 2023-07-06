@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="assets/faviconA.jpg" />
+  <title>game Counter</title>
+  <link rel="stylesheet" href="gameCounter.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Game Counter</h1>
+  </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12">
+        <h2>Alex vs Dad</h2>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-1">
+        <div>Alex's Wins</div>
+      </div>
+      <input class="col-1" id="playerAlex1Wins" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickAlex1Add()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickAlex1Minus()">
+          -
+        </button>
+      </div>
+      <div class="col-1">
+        <div>Dad's Wins</div>
+      </div>
+      <input class="col-1" id="playerDadWins" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickDadAdd()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickDadMinus()">
+          -
+        </button>
+      </div>
+      <div class="col-1">
+        <div>Draws</div>
+      </div>
+      <input class="col-1" id="playerDraws1" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickDradws1Add()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickDraws1Minus()">
+          -
+        </button>
+      </div>
+      <div class="col-1">
+        <div>Totals</div>
+      </div>
+      <input class="col-1" id="playerTotals1" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickTotals1Add()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickTotals1Minus()">
+          -
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12">
+        <h2>Alex vs Mom</h2>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-1">
+        <div>Alex's Wins</div>
+      </div>
+      <input class="col-1" id="playerAlex2Wins" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickAlex2Add()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickAlex2Minus()">
+          -
+        </button>
+      </div>
+      <div class="col-1">
+        <div>Mom's Wins</div>
+      </div>
+      <input class="col-1" id="playerMomWins" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickMomAdd()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickMomMinus()">
+          -
+        </button>
+      </div>
+      <div class="col-1">
+        <div>Draws</div>
+      </div>
+      <input class="col-1" id="playerDraws2" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickDradws2Add()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickDraws2Minus()">
+          -
+        </button>
+      </div>
+      <div class="col-1">
+        <div>Totals</div>
+      </div>
+      <input class="col-1" id="playerTotals2" value="0"></input>
+      <div class="col-1">
+        <button type="submit" class="button add" onclick="buttonClickTotals2Add()">
+          +
+        </button>
+        <button type="submit" class="button add" onclick="buttonClickTotals2Minus()">
+          -
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="gameCounter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="shttps://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+
+</html>

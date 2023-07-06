@@ -1,0 +1,50 @@
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.header {
+    background: black;
+    text-align: center;
+  padding: 20px
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.image {
+  width: 600px;
+}
+@media screen and (max-width: 600px) {
+  .image {
+    width: 100%;
+  }
+}
+h2 {  
+  color: blue;
+}
+div {
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50;
+  color: white;
+  /* padding: 1px 15px; */
+  text-align: center;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 1px 0px;
+  cursor: pointer;
+}
+.button:hover {
+  color: blue;
+}
+.add {
+  padding: 0px 10px;
+}
+.subtract {
+  padding: 0px 12px;
+} 
+.container {
+  padding: 10px 0;
+}
